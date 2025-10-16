@@ -1,4 +1,4 @@
-# class-notes
+# class-notes <LEARNING HTML> 😩😭😩
 These are some notes i take during classes 
 
 - [x] Internet:
@@ -14,3 +14,28 @@ Wires, cables and WiFi, information on the internet moves from one computer to a
 
 - [x] HTML Elemements
 - HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear or act in a certain way. HTML elements are delineated by tags, written using angle brackets (< and >).
+
+<img width="4152" height="1644" alt="image" src="https://github.com/user-attachments/assets/5e4a3bda-ec7c-42b3-9d47-b903b811cd88" />
+
+Some omitted closing tags cause bigger issues: not closing some tags, such as <script>, <style>, <template>, <textarea>, and <title>, breaks subsequent content as shown in the following example.
+
+```html
+<p>If you add <strong>Strong</oops> text and <em>emphasised</doh> text but forget to close your tags, that doesn't cause the worst problems.</ohno>
+<p>All that happens is your text continue to be bold and emphasized.</ohno>
+
+<p>But not closing a `style` or `script` is a more serious issue. 
+  <p>The script only shows because we changed the display.
+  <style>
+    p {
+      color:red;
+    }
+    style {
+      display: unset;
+     }
+  <p>text coming after 
+  <table>
+    <tr>
+      <th>Optional closing
+    <tr>
+      <td>table cell
+```
