@@ -39,3 +39,20 @@ Some omitted closing tags cause bigger issues: not closing some tags, such as <s
     <tr>
       <td>table cell
 ```
+
+## Important notes:
+There are two types of elements: replaced and non-replaced.
+
+### Non-replaced elements:
+The paragraph, header, and lists marked up in the earlier section are all non-replaced. Non-replaced elements have opening and (sometimes optional) closing tags that surround them and may include text and other tags as sub-elements.
+
+### Replacable elements:
+In web development, replaced elements are HTML elements whose content are replaced by external resources or content defined outside of the document structure, and are not considered in the CSS rendering model. 
+The following can be replaced elements:
+```html
+<img>
+<video>
+<iframe>
+<embed>
+<fencedframe>
+```
