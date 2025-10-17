@@ -56,3 +56,6 @@ The following can be replaced elements:
 <embed>
 <fencedframe>
 ```
+
+### Attributes:
+An attribute extends an HTML or XML element, changing its behavior or providing metadata.
