@@ -57,5 +57,20 @@ The following can be replaced elements:
 <fencedframe>
 ```
 
-### Attributes:
-An attribute extends an HTML or XML element, changing its behavior or providing metadata.
+## HTML Document Structure:
+HTML documents include a document type declaration and the <html> root element. Nested in the <html> element are the document head and document body. 
+
+### Add to every HTML Document:
+1. The first thing in any HTML document is the preamble. ```<!DOCTYPE html>``` tells the browser to use standards mode. If omitted, browsers will use a         different rendering mode known as quirks mode.
+2. The ```<html>``` element is the root element for an HTML document. It is the parent of the ```<head>``` and ```<body>```, containing everything in the HTML document other than the doctype.
+3. The lang language attribute added to the ```<html>``` tag defines the main language of the document.  For example, French is very different in Canada (fr-CA) versus Burkina Faso (fr-BF). This language declaration enables screen readers, search engines, and translation services to know the document language.
+
+```HTML
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  </head>
+  <body>
+  </body>
+</html>
+```
