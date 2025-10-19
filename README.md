@@ -74,3 +74,7 @@ HTML documents include a document type declaration and the <html> root element. 
   </body>
 </html>
 ```
+
+The head contains all the metadata for a site or application. While the body contains all the visible content.
+## The required components inside the head:
+1. The character encoding. ```<meta charset="utf-8" />``` to ensure the browser can render the characters in that title and all the characters in the rest of the document.
