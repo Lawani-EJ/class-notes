@@ -80,3 +80,10 @@ The head contains all the metadata for a site or application. While the body con
 1. The character encoding. ```<meta charset="utf-8" />``` to ensure the browser can render the characters in that title and all the characters in the rest of the document.
 
 Reference: `https://gorails.com/episodes/html-learning-path-html-document-structure?ref=dailydev`
+
+2. The Document title:
+Your home page and all additional pages should each have a unique title. ```<title>Machine Learning Workshop</title>```
+
+3. The viewport metadata:
+ it enables controlling a viewport's size and scale, and prevents the site's content from being sized down to fit a 960px site onto a 320px screen, it is definitely recommended. ```<meta name="viewport" content="width=device-width" />``` The preceding code means "make the site responsive, starting by making the width of the content the width of the screen".
+
