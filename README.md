@@ -12,6 +12,14 @@ Wires, cables and WiFi, information on the internet moves from one computer to a
 - [x] Overview of HTML :
 - HyperText Markup Language, or HTML, is the standard markup language for describing the structure of documents displayed on the web.
 
+## Very Important explanantion of HTML: 
+HyperText Markup Language 
+1. Hyper Text: This a network of interconnected documents.Refers to text that contains links to other text or resources.
+2. Markup: A markup language uses tags to define the structure and formatting of a document.
+3. Language: "language" refers to a system of vocabulary and syntax (rules) used to create documents that can be understood by a web browser.
+
+In essence, HTML is the language used to create the structure and content of web pages. It uses tags to define elements like headings, paragraphs, lists, images, and links.
+
 - [x] HTML Elemements
 - HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear or act in a certain way. HTML elements are delineated by tags, written using angle brackets (< and >).
 
