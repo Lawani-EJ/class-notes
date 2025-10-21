@@ -98,15 +98,14 @@ Your home page and all additional pages should each have a unique title. ```<tit
 So far, the outline for our HTML file is:
 ```HTNL
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Machine Learning Workshop</title>
-    <meta name="viewport" content="width=device-width" />
-  </head>
-  <body>
-
-  </body>
+<html>
+<head>
+  <title>My First Web Page</title>
+</head>
+<body>
+  <h1>Hello, World!</h1>
+  <p>This is my first web page.</p>
+</body>
 </html>
 ```
 
