@@ -95,3 +95,20 @@ Your home page and all additional pages should each have a unique title. ```<tit
 3. The viewport metadata:
  it enables controlling a viewport's size and scale, and prevents the site's content from being sized down to fit a 960px site onto a 320px screen, it is definitely recommended. ```<meta name="viewport" content="width=device-width" />``` The preceding code means "make the site responsive, starting by making the width of the content the width of the screen".
 
+So far, the outline for our HTML file is:
+```HTNL
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Machine Learning Workshop</title>
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+
+  </body>
+</html>
+```
+
+# CSS
+The ```<head>``` is where you include styles for your HTML. There are three ways to include CSS: ```<link>```, ```<style>```, and the ```style``` attribute. 
