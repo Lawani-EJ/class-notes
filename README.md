@@ -111,3 +111,4 @@ So far, the outline for our HTML file is:
 
 # CSS
 The ```<head>``` is where you include styles for your HTML. There are three ways to include CSS: ```<link>```, ```<style>```, and the ```style``` attribute. 
+1.The `<link>` tag is the most preferable method of icluding sylesheets. The syntax is `<link rel="stylesheet" href="styles.css">`, where styles.css is the URL of your stylesheet.
