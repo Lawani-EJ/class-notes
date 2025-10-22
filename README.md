@@ -112,3 +112,13 @@ So far, the outline for our HTML file is:
 # CSS
 The ```<head>``` is where you include styles for your HTML. There are three ways to include CSS: ```<link>```, ```<style>```, and the ```style``` attribute. 
 1.The `<link>` tag is the most preferable method of icluding sylesheets. The syntax is `<link rel="stylesheet" href="styles.css">`, where styles.css is the URL of your stylesheet.
+The ``rel`` attribute defines the relationship: in this case ```stylesheet```. If you omit this, your CSS will not be linked.
+
+2. The ```style``` is used when we want our style sheet to be within a cascade (poured on) layer but want to access and edit the file we include the the CSS with the ```@import``` inside a style
+
+ ```HTML
+<style>
+  @import "styles.css" layer(firstLayer);
+</style>
+```
+
