@@ -109,6 +109,44 @@ So far, the outline for our HTML file is:
 </html>
 ```
 
+# Headings and sections
+## Site `<header>`
+
+    <!-- start header -->
+    <div id="pageHeader">
+      <div id="title">Machine Learning Workshop</div>
+      <!-- navigation -->
+      <div id="navigation">
+        <a href="#reg">Register</a>
+        <a href="#about">About</a>
+        <a href="#teachers">Instructors</a>
+        <a href="#feedback">Testimonials</a>
+      </div>
+      <!-- end navigation bar -->
+    </div>
+    <!-- end of header -->
+
+You can include `role` attributes to provide semantics to create a good accessibility object model (AOM) for screen readers:  
+
+    <!-- start header -->
+    <div role="banner">
+      <div role="heading" aria-level="1">Machine Learning Workshop</div>
+      <div role="navigation">
+        <a href="#reg">Register</a>
+        <a href="#about">About</a>
+        <a href="#teachers">Instructors</a>
+        <a href="#feedback">Testimonials</a>
+      </div>
+      <!-- end navigation bar -->
+    <div>
+    <!-- end of header -->
+
+
+CSS can make (almost) any markup look right. But using the non-semantic `<div>` for everything actually creates extra work. To target multiple `<div>`s with CSS, you end up using ids or classes to identify the content. The code also includes a comment for each closing `</div>` to indicate which opening tag each `</div>` closed.
+
+While the `id` and `class` attributes provide hooks for styling and JavaScript, they add no semantic value for the screen reader and (for the most part) the search engines.
+
+
 # CSS
 The ```<head>``` is where you include styles for your HTML. There are three ways to include CSS: ```<link>```, ```<style>```, and the ```style``` attribute. 
 1.The `<link>` tag is the most preferable method of icluding sylesheets. The syntax is `<link rel="stylesheet" href="styles.css">`, where styles.css is the URL of your stylesheet.
