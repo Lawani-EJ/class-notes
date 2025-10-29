@@ -160,3 +160,22 @@ The ``rel`` attribute defines the relationship: in this case ```stylesheet```. I
 </style>
 ```
 
+# Links 
+Hyperlinks, often referred to simply as 'links', connect various parts of a website, different files, or even other websites, providing a seamless navigation experience. In HTML, we create these essential navigational devices using the <a> tag coupled with an href attribute that specifies the destination of the link.
+
+``` HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space Exploration</title>
+</head>
+<body>
+    <h1>Welcome to the Astronomy Club</h1>
+    <!-- Create a link to a page about the Solar System. Don't forget to make it open in a new tab! Here is a sample URL you can use: https://en.wikipedia.org/wiki/Solar_System -->
+    <a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank">Link to a page about the solar system..</a>
+
+    <!-- Create a link to the about.html page that is already predefined -->
+    <a href="about.html">Learn more about the Astronomy Club 🚀</a>
+</body>
+</html>
+```
