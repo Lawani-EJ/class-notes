@@ -179,3 +179,10 @@ Hyperlinks, often referred to simply as 'links', connect various parts of a webs
 </body>
 </html>
 ```
+
+# Images
+The ```<img>``` tag is an HTML element used to embed an image into a web page.
+
+```
+<img src="https://images.unsplash.com/photo-1519681393784-a939888cd496?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+```
