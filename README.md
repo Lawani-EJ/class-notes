@@ -200,3 +200,9 @@ Attributes define the behavior, linkages, and functionality of elements.
 <div id="MyID">
 ```
 
+## Other Attributes include:
+1. Boolean Attribute: If a boolean attribute is always present then it is always true.
+2. Global Attribute: Are attributes that can be set on any HTML element, including elements in the head.
+3. Enumerated Attribute: They have a limited set of predifined valid values. Eg, If you include ```<style contenteditable="false">```, the element is not editable. If the value is invalid, such as ```<style contenteditable="😀">```, or, surprisingly, ```<style contenteditable="contenteditable">```, the value is invalid and defaults to inherit.
+
+
