@@ -205,4 +205,10 @@ Attributes define the behavior, linkages, and functionality of elements.
 2. Global Attribute: Are attributes that can be set on any HTML element, including elements in the head.
 3. Enumerated Attribute: They have a limited set of predifined valid values. Eg, If you include ```<style contenteditable="false">```, the element is not editable. If the value is invalid, such as ```<style contenteditable="😀">```, or, surprisingly, ```<style contenteditable="contenteditable">```, the value is invalid and defaults to inherit.
 
+## Lists
+Lists are more common than you might think. If you've ever taken a programming class, the first project may have been to create a shopping list or a to-do list. Those are lists. Multiple-choice tests are generally numbered lists of questions: the multiple possible answers for each question are nested lists.
+
+1. Unordered Lists
+2. Ordered Lists
+3. Description Lists
 
