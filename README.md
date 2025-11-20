@@ -212,3 +212,11 @@ Lists are more common than you might think. If you've ever taken a programming c
 2. Ordered Lists
 3. Description Lists
 
+# Tables
+The `<table>` tag wraps the table content, including all the table elements.
+The table's children are, in order:
+1. `<caption>` element
+2. `<colgroup>` elements
+3. `<thead>` elements
+4. `<tbody>` elements
+5. `<tfoot>` elements
