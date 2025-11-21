@@ -221,5 +221,15 @@ The table's children are, in order:
 4. `<tbody>` elements
 5. `<tfoot>` elements
 
+# Important Class
+
 # Forms
 With forms, you can enable users to interact with your website or application, validate the information entered, and submit the data to a server.
+
+## Submitting forms 
+```
+<input type="submit" value="Submit Form">
+<button type="submit">Submit Form</button>
+```
+
+Forms are submitted when the user activates a submit button nested within the form. When using <input> for buttons, the 'value' is the button's label, and is displayed in the button. When using <button>, the label is the text between the opening and closing <button> tags.
