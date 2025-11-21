@@ -220,3 +220,6 @@ The table's children are, in order:
 3. `<thead>` elements
 4. `<tbody>` elements
 5. `<tfoot>` elements
+
+# Forms
+With forms, you can enable users to interact with your website or application, validate the information entered, and submit the data to a server.
