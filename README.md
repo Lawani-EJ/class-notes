@@ -233,3 +233,6 @@ With forms, you can enable users to interact with your website or application, v
 ```
 
 Forms are submitted when the user activates a submit button nested within the form. When using <input> for buttons, the 'value' is the button's label, and is displayed in the button. When using <button>, the label is the text between the opening and closing <button> tags.
+
+
+# Images and Videos 
