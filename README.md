@@ -235,4 +235,12 @@ With forms, you can enable users to interact with your website or application, v
 Forms are submitted when the user activates a submit button nested within the form. When using <input> for buttons, the 'value' is the button's label, and is displayed in the button. When using <button>, the label is the text between the opening and closing <button> tags.
 
 
-# Images and Videos 
+# Audio and Videos 
+The <`video>` and `<audio>` elements can be used to embed media players directly with the src attribute or can be used as the container element for a series of `<source>` elements, each providing a `src` file suggestion.
+The opening `<video>` and `<audio>` tags can contain several other attributes including `controls`, `autoplay`, `loop`, `mute`, `preload`, and the global attributes. The `<video>` element also supports the `height`,` width`, and `poster` attributes.
+
+```html
+<video src="videos/machines.webm" poster="images/machine.jpg" controls>
+  <p>Watch <a href="https://youtube.com/link">video on Youtube</a></p>
+</video>
+```
