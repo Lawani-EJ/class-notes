@@ -244,3 +244,44 @@ The opening `<video>` and `<audio>` tags can contain several other attributes in
   <p>Watch <a href="https://youtube.com/link">video on Youtube</a></p>
 </video>
 ```
+
+# Template, slot, and shadow
+The benefit of web components is their re-usability: you can create a UI widget once, and reuse it multiple times. While you do need JavaScript to create web components, you don't need a JavaScript library. HTML and the associated APIs provide everything you need.
+
+In this section, we'll create the <star-rating> element, a web component that allows users to rate an experience on a scale of one to five stars. When naming a custom element, it is recommended to use all lowercase letters. Also, include a dash, as this helps distinguish between regular and custom elements.
+
+
+### Template Element
+The `<template>` element is used to declare fragments of HTML to be cloned and inserted into the DOM with JavaScript. The contents of the element are not rendered by default. Rather, they are instantiated using JavaScript.
+
+```
+<template id="star-rating-template">
+  <form>
+    <fieldset>
+      <legend>Rate your experience:</legend>
+      <rating>
+        <input type="radio" name="rating" value="1" aria-label="1 star" required />
+        <input type="radio" name="rating" value="2" aria-label="2 stars" />
+        <input type="radio" name="rating" value="3" aria-label="3 stars" />
+        <input type="radio" name="rating" value="4" aria-label="4 stars" />
+        <input type="radio" name="rating" value="5" aria-label="5 stars" />
+      </rating>
+    </fieldset>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+  </form>
+</template>
+```
+
+As the contents of a <template> element are not written to the screen, the <form> and its contents aren't rendered. Yes, this Codepen is blank, but if you inspect the HTML tab, you'll see the <template> markup.
+In this example, the `<form>` is not a child of a `<template>` in the DOM. Rather, contents of `<template>` elements are children of a DocumentFragment returned by the HTMLTemplateElement.content property. To be made visible, JavaScript must be used to grab the contents and append those contents to the DOM.
+
+
+```
+
+let starRating = document.getElementById("star-rating-template").content;
+document.body.appendChild(starRating);
+
+```
+
+This brief JavaScript did not create a custom element. Rather, this example has appended the contents of the <template> into the <body>. The content has become part of the visible, styleable DOM.
