@@ -285,3 +285,15 @@ document.body.appendChild(starRating);
 ```
 
 This brief JavaScript did not create a custom element. Rather, this example has appended the contents of the <template> into the <body>. The content has become part of the visible, styleable DOM.
+
+### Slot Element
+We include a slot to include a customized per occurrence legend. HTML provides a ```<slot>``` element as a placeholder inside a ```<template>``` that, if provided a name, creates a "named slot".
+
+```Html
+<template id="star-rating-template">
+  <form>
+    <fieldset>
+      <slot name="star-rating-legend">
+        <legend>Rate your experience:</legend>
+      </slot>
+```
