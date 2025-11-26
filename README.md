@@ -297,3 +297,30 @@ We include a slot to include a customized per occurrence legend. HTML provides a
         <legend>Rate your experience:</legend>
       </slot>
 ```
+
+The primary purpose of ```<slot>``` is to allow a parent component to "project" or insert its own content into specific areas within a child web component's template.
+
+By assigning a name attribute to a ```<slot>```, you create a "named slot." This allows the parent component to target specific slots by using the slot attribute on its child elements, matching the name of the desired slot.
+
+# HTML API'S
+In the introduction to this series it says "HTML elements are the nodes that make up the Document Object Model." We've discussed the type of element nodes. In this section we discuss element APIs that enable querying those nodes.
+
+### The DOM and AOM
+## DOM (Document Object Model)
+What it is : The DOM is a programming interface for HTML and XML documents that represents the document structure as a tree of objects.
+
+How it works: Each part of the document, such as elements, attributes, and texts is a "node" in the tree.
+
+Primary use: Allows scripts to dynamically change the content, structure, and style of a web page after it is loaded.
+
+Example: A JavaScript script can use the DOM to find a button and then change the text of a paragraph when a button is clicked.
+
+## AOM (Accesibility Object Model)
+
+What it is: The AOM is a proposed web API that provides programmatic access to the accessibility tree, a semantic representation of the DOM used by assistive technologies.
+
+How it works: The browser automatically builds this tree from the DOM, and the AOM is intended to let developers interact with it.
+
+Primary use: To ensure that web content is accessible to all users, particullarly those who rely on assistive devices like screen readers.
+
+Example: A developer can use the AOM to expose the semantic roles and relationships of custom "Web Components" to the accesibility tree.
