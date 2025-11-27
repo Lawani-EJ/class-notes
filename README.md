@@ -324,3 +324,15 @@ How it works: The browser automatically builds this tree from the DOM, and the A
 Primary use: To ensure that web content is accessible to all users, particullarly those who rely on assistive devices like screen readers.
 
 Example: A developer can use the AOM to expose the semantic roles and relationships of custom "Web Components" to the accesibility tree.
+
+
+# HTML Element APIs
+The key element in API's is that JavaScript Interfaces are able to be manipulated and interacted by developers within a webpage.
+
+## Some aspects in HTML Element API's :
+- DOM Manipulation.
+- Event Handling.
+- Styling and Attributes.
+- HTML5 API's.
+
+  # DOM Manipulation
