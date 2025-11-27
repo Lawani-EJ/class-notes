@@ -336,3 +336,11 @@ The key element in API's is that JavaScript Interfaces are able to be manipulate
 - HTML5 API's.
 
   # DOM Manipulation
+  The core of HTML Elments API's revolves around the Document Object Model (DOM). The DOM represents the structure of the HTML document as a tree of objects, and these API's provide methods to access, modify, add, and remove elements and their content.
+
+  ```Javascript
+  // Accessing an element by ID and changing its content
+  const myElement =  document.getElementById('myDiv');
+  myElement.innerHTML = 'New Content goes here!!';
+```
+
