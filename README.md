@@ -343,4 +343,3 @@ The key element in API's is that JavaScript Interfaces are able to be manipulate
   const myElement =  document.getElementById('myDiv');
   myElement.innerHTML = 'New Content goes here!!';
 ```
-
