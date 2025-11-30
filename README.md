@@ -175,7 +175,7 @@ Hyperlinks, often referred to simply as 'links', connect various parts of a webs
     <a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank">Link to a page about the solar system..</a>
 
     <!-- Create a link to the about.html page that is already predefined -->
-    <a href="about.html">Learn more about the Astronomy Club 🚀</a>
+    <a href="about.html">Learn more about the Astronomy Club </a>
 </body>
 </html>
 ```
