@@ -343,3 +343,8 @@ The key element in API's is that JavaScript Interfaces are able to be manipulate
   const myElement =  document.getElementById('myDiv');
   myElement.innerHTML = 'New Content goes here!!';
 ```
+
+# Why API's are important
+1. APIs help developers integrate exciting features and build automation without reinventing the wheel
+2. APIs allow enterprises to open up their product for faster innovation
+3. APIs can be products themselves
