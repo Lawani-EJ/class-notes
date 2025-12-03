@@ -348,3 +348,14 @@ The key element in API's is that JavaScript Interfaces are able to be manipulate
 1. APIs help developers integrate exciting features and build automation without reinventing the wheel
 2. APIs allow enterprises to open up their product for faster innovation
 3. APIs can be products themselves
+
+## The types of API
+- Hardware API's
+- Software Library API's
+- Web API's
+
+1. Hardware API's : Interface for software to talk to hardware.
+2. Software Library API's : Interface for directly consuming code from another code base.
+3. Web API's: Interface for communicating across code bases over a network.
+
+
