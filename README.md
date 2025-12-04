@@ -362,3 +362,10 @@ Multiple API types may be used to achieve a task. For example, uploading a photo
 - Hardware API for the app to talk to your camera.
 - Software Library API for the image to be processed with filters.
 - Web API for sending your image to instagram's servers so your friends can like it.
+
+## Access
+API's also vary in the scope of who can access them
+
+- Public API's (also known as open API's) : Consumed by anyone who discovers the API.
+- Private API's: Consumed only within an organization and not made public.
+- Partner API's : Consumed by one or more organizations that have an established relationship.
