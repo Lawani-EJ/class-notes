@@ -358,4 +358,7 @@ The key element in API's is that JavaScript Interfaces are able to be manipulate
 2. Software Library API's : Interface for directly consuming code from another code base.
 3. Web API's: Interface for communicating across code bases over a network.
 
-
+Multiple API types may be used to achieve a task. For example, uploading a photo to instagram makes use of various API's
+- Hardware API for the app to talk to your camera.
+- Software Library API for the image to be processed with filters.
+- Web API for sending your image to instagram's servers so your friends can like it.
