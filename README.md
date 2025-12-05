@@ -369,3 +369,7 @@ API's also vary in the scope of who can access them
 - Public API's (also known as open API's) : Consumed by anyone who discovers the API.
 - Private API's: Consumed only within an organization and not made public.
 - Partner API's : Consumed by one or more organizations that have an established relationship.
+
+# An API Plattform
+Postman is an API plattform that is used for for building and testing API's. With Postman i can simplify the steps and process of each API lifecycle and streamline my colloborations so that i can create better API's faster and consume them with ease.
+
