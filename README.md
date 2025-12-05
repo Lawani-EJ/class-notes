@@ -373,3 +373,5 @@ API's also vary in the scope of who can access them
 # An API Plattform
 Postman is an API plattform that is used for for building and testing API's. With Postman i can simplify the steps and process of each API lifecycle and streamline my colloborations so that i can create better API's faster and consume them with ease.
 
+# Working with API's then and now: Curl vs Postman
+Before Postman it was common practice to poke at API's with a command line tool for making HTTP requests called cURL. This tool is still used today but has it's limitations when it comes to colloborating and sharing.
