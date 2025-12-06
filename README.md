@@ -375,3 +375,17 @@ Postman is an API plattform that is used for for building and testing API's. Wit
 
 # Working with API's then and now: Curl vs Postman
 Before Postman it was common practice to poke at API's with a command line tool for making HTTP requests called cURL. This tool is still used today but has it's limitations when it comes to colloborating and sharing.
+
+This is an example of what an API call in the terminal using the `curl` command looks like. Here we are fetching data about GitHub user postmanlabs.
+
+curl https://api.github.com/users/postmanlabs
+
+<img width="1128" height="1080" alt="image" src="https://github.com/user-attachments/assets/f8433b66-da5e-4a9e-8fb8-4202ec753b6d" />
+
+It works great, but once you make the call, the API response data is lost in the river of the terminal. You also don't have visibility of the metadata of the response without adding more details to the command.
+
+## API calls with Postman
+ Postman shows the response with clean indents and colors and allows you to save, organize and share your requests. You can also see all the components of the request and response broken down into tabs and other helpful details like the response time and status code. 
+
+ <img width="1575" height="1080" alt="image" src="https://github.com/user-attachments/assets/21557246-6dcc-44c9-8f4e-ab41309b6a33" />
+
