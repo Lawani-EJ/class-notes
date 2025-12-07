@@ -389,3 +389,18 @@ It works great, but once you make the call, the API response data is lost in the
 
  <img width="1575" height="1080" alt="image" src="https://github.com/user-attachments/assets/21557246-6dcc-44c9-8f4e-ab41309b6a33" />
 
+# Request Methods
+When we make an HTTP call to a server, we specify a request method that indicates the type of operation we are about to perform. These are also called HTTP Verbs.
+
+Some common HTTP request methods correspond to the CRUD operations
+
+| Method Name | Operation               |
+|-------------|--------------------------|
+| GET         | Retrieve data (Read)     |
+| POST        | Send data (Create)       |
+| PUT / PATCH | Update data (Update)     |
+| DELETE      | Delete data (Delete)     |
+
+> **Note:**  
+> - **PUT** usually replaces an entire resource.  
+> - **PATCH** is typically used for partial updates.
