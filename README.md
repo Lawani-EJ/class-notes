@@ -404,3 +404,21 @@ Some common HTTP request methods correspond to the CRUD operations
 > **Note:**  
 > - **PUT** usually replaces an entire resource.  
 > - **PATCH** is typically used for partial updates.
+
+# Response Status codes
+Status codes have conventions. For example, any status code with a  "2xx" (a "200-level response") represents a succesful call.
+
+| Code Range | Meaning        | Examples                                   |
+|------------|----------------|---------------------------------------------|
+| **2xx**    | Success        | 200 – OK  
+|            |                | 201 – Created  
+|            |                | 204 – No Content (silent OK)               |
+| **3xx**    | Redirection    | 301 – Moved (path changed)                 |
+| **4xx**    | Client Error   | 400 – Bad Request  
+|            |                | 401 – Unauthorized  
+|            |                | 403 – Not Permitted  
+|            |                | 404 – Not Found                            |
+| **5xx**    | Server Error   | 500 – Internal Server Error  
+|            |                | 502 – Bad Gateway  
+|            |                | 504 – Gateway Timeout                      |
+
