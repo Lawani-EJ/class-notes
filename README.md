@@ -422,3 +422,10 @@ Status codes have conventions. For example, any status code with a  "2xx" (a "20
 |            |                | 502 – Bad Gateway  
 |            |                | 504 – Gateway Timeout                      |
 
+# Query Parameters
+Some APIs allow you to refine your request further with key-value pairs called query parameters.  
+Query parameters are added to the end of the path. They start with a question mark ``?`` followed by the key-value pairs in the format ```<key>=<value>```.
+
+```GET https://some-api.com/photos?orientation=landscape```
+
+For example this request might fetch all photos that have a landscape orientation, if there are multiple query parameters, each is seperated by an ampersand ```&```.
