@@ -429,3 +429,6 @@ Query parameters are added to the end of the path. They start with a question ma
 ```GET https://some-api.com/photos?orientation=landscape```
 
 For example this request might fetch all photos that have a landscape orientation, if there are multiple query parameters, each is seperated by an ampersand ```&```.
+
+# When to use Query parameters
+The right answer to use is always. Sometimes query parameters are optional and allow you to add filters or extra data responses. Sometimes they are required in order for the server to process your request. API are implemeted differently to fufil different needs.
