@@ -432,3 +432,6 @@ For example this request might fetch all photos that have a landscape orientatio
 
 # When to use Query parameters
 The right answer to use is always. Sometimes query parameters are optional and allow you to add filters or extra data responses. Sometimes they are required in order for the server to process your request. API are implemeted differently to fufil different needs.
+
+# Path Variables
+Another way of passing request data to an API is path variables. A path variable is a dynamic section of a path and it is often used for ID's and entity names such as usernames.
