@@ -435,3 +435,7 @@ The right answer to use is always. Sometimes query parameters are optional and a
 
 # Path Variables
 Another way of passing request data to an API is path variables. A path variable is a dynamic section of a path and it is often used for ID's and entity names such as usernames.
+
+# Path Variable syntax
+The path variable comes immediately after a slash in the path, for example, the GitHubAPI allows you to search for GitHub users by providing a username in the path in place of ```{username}``` below:
+
