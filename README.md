@@ -439,3 +439,4 @@ Another way of passing request data to an API is path variables. A path variable
 # Path Variable syntax
 The path variable comes immediately after a slash in the path, for example, the GitHubAPI allows you to search for GitHub users by providing a username in the path in place of ```{username}``` below:
 
+# Sending Data with POST
