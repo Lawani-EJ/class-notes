@@ -440,3 +440,4 @@ Another way of passing request data to an API is path variables. A path variable
 The path variable comes immediately after a slash in the path, for example, the GitHubAPI allows you to search for GitHub users by providing a username in the path in place of ```{username}``` below:
 
 # Sending Data with POST
+You will need to send body data with requests whenever you need to add or update structured data. For example, if your'e sending a request to add a new customer to a database, you might include the customer details in JSON data format. Typically you will use body data with `PUT`, `POST`, and `PATCH` requests. 
